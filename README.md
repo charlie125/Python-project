@@ -1,7 +1,5 @@
 # Transport Logistics & Safety Management System
 
-# Tech Stack & Implementation
-
 * Core Modules: 
     * `csv`: Handles reading/writing of data with varying delimiters (`|` and `;`).
     * `datetime`: Manages time arithmetic and string parsing (`strptime`, `strftime`).
