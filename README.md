@@ -1,9 +1,14 @@
 # Transport Logistics & Safety Management System
 
+# Tech Stack & Implementation
+
+* Core Modules: 
+    * `csv`: Handles reading/writing of data with varying delimiters (`|` and `;`).
+    * `datetime`: Manages time arithmetic and string parsing (`strptime`, `strftime`).
+    * `math`: Utilizes trigonometric functions (`sin`, `cos`, `sqrt`, `atan2`, `radians`) for the geospatial algorithm.
+
 This project is a Python-based simulation system designed to manage scheduling, safety verification, and real-time status updates for aviation and maritime logistics. The project consists of two main modules: 
 **Pilot Scheduling** and **Shipping Voyage Management**.
-
-This repository demonstrates proficiency in Python programming logic, CSV file I/O, `datetime` manipulation, and the application of mathematical algorithms for geospatial calculations.
 
 # Project Structure
 
@@ -28,10 +33,3 @@ This repository demonstrates proficiency in Python programming logic, CSV file I
 * Safety Verification:
     * Cross-references weather data against both "Departure" and "Arrival" ports.
     * Safety Logic: Validates conditions against thresholds (Min Temp: 5°C, Max Wind Speed: 30 km/h). If conditions are unmet, the system issues a "Voyage Cannot Proceed" warning.
-
-# Tech Stack & Implementation
-
-* Core Modules: 
-    * `csv`: Handles reading/writing of data with varying delimiters (`|` and `;`).
-    * `datetime`: Manages time arithmetic and string parsing (`strptime`, `strftime`).
-    * `math`: Utilizes trigonometric functions (`sin`, `cos`, `sqrt`, `atan2`, `radians`) for the geospatial algorithm.
