@@ -11,8 +11,6 @@ This repository demonstrates proficiency in Python programming logic, CSV file I
 - Shipping.py: Maritime management module. Manages captain voyages, dynamic schedule adjustments, and safety verification based on weather conditions.
 - Data Files (Required): `pilot_data.csv`, `captain_data.csv`, `weather_data.csv`, `late_checkin.csv`.
 
-# Key Features
-
 # 1. Aviation Management (`Pilot.py`)
 * Data Parsing: Parses semicolon-delimited (`;`) CSV files to build a pilot schedule database.
 * Check-in System: 
