@@ -1,5 +1,3 @@
-# Python-project
-
 # Transport Logistics & Safety Management System
 
 This project is a Python-based simulation system designed to manage scheduling, safety verification, and real-time status updates for aviation and maritime logistics. The project consists of two main modules: 
